@@ -8,4 +8,4 @@
     Referrer-Policy= "same-origin"
     X-Robots-Tag = "index"
     cache-control = "public, max-age=0, no-cache, no-store, must-revalidate"
-    Content-Security-Policy= "frame-ancestors 'sameorigin' https://flightradar24.muller.tel"
+    Content-Security-Policy= "frame-ancestors 'sameorigin' https://www.flightradar24.com"
