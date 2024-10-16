@@ -2,10 +2,7 @@
   for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    X-Frame-Options = "sameorigin"
     X-XSS-Protection= "1; mode=block"
     X-Content-Type-Options= "nosniff"
-    X-Robots-Tag = "index"
     cache-control = "public, max-age=0, no-cache, no-store, must-revalidate"
-    Content-Security-Policy= "frame-ancestors 'self' https://www.flightradar24.com"
-    Content-Security-Policy = "default-src 'self'; connect-src 'self' https://www.flightradar24.com https://flightradar24.muller.tel; script-src 'self' https://www.flightradar24.com; style-src 'self' https://www.flightradar24.com; frame-ancestors https://flightradar24.com"
+    Content-Security-Policy= "frame-ancestors 'sameorigin' https://www.flightradar24.com https://flightradar24.com https://flightradar24.muller.tel"
