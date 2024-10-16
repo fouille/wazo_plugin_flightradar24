@@ -2,7 +2,7 @@
   for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    "X-XSS-Protection: 1; mode=block"
-    "X-Content-Type-Options: nosniff"
-    "Referrer-Policy: same-origin"
-    `Content-Security-Policy: frame-ancestors 'sameorigin' https://flightradar24.muller.tel`
+    X-XSS-Protection= "1; mode=block"
+    X-Content-Type-Options= "nosniff"
+    Referrer-Policy= "same-origin"
+    Content-Security-Policy= "frame-ancestors 'sameorigin' https://flightradar24.muller.tel"
