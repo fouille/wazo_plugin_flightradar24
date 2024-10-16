@@ -1,0 +1,32 @@
+{
+    "manifestVersion": "0.1",
+    "version": "1.0.0",
+    "id": "flightradar24-show-wda",
+    "packageName": "io.wazo.wda.flightradar24-show-wda",
+    "productType": "app",
+    "name" : {
+      "short": "Flightradar24",
+      "full": "Flightradar24"
+    },
+    "developer": {
+      "name": "MULLER Franck"
+    },
+    "description": {
+      "short": "Affichage de l'application Flightradar24",
+      "full": "Affichage de l'application Flightradar24"
+    },
+    "icons": {
+      "color": "https://avatars.githubusercontent.com/u/68688703?s=200&v=4"
+    },
+    "staticTabs": [
+      {
+        "entityId": "flightradar24-tab",
+        "context": [
+          "sidebarTab"
+        ], 
+        "name": "Flightradar24",
+        "contentUrl": "https://www.flightradar24.com/47.56,1.12/7",
+        "icon": "./img/icon.svg"
+      }
+    ]
+  }
